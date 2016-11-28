@@ -1,0 +1,84 @@
+Language model created by QuickLM on Mon Oct 17 05:46:20 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 12 sentences and 15 words
+
+\data\
+ngram 1=15
+ngram 2=25
+ngram 3=21
+
+\1-grams:
+-0.8751 </s> -0.3010
+-0.8751 <s> -0.2389
+-1.9542 BACKWARD -0.2389
+-1.9542 CHANGE -0.2962
+-1.9542 EXIT -0.2389
+-1.9542 FAST -0.2389
+-1.9542 FORWARD -0.2389
+-1.6532 LEFT -0.2389
+-1.9542 MODE -0.2389
+-1.1761 MOVE -0.2606
+-1.6532 RIGHT -0.2389
+-1.9542 SLOW -0.2389
+-1.9542 START -0.2389
+-1.9542 STOP -0.2389
+-1.6532 TURN -0.2813
+
+\2-grams:
+-1.3802 <s> CHANGE 0.0000
+-1.3802 <s> EXIT 0.0000
+-0.6021 <s> MOVE 0.0000
+-1.3802 <s> START 0.0000
+-1.3802 <s> STOP 0.0000
+-1.0792 <s> TURN 0.0000
+-0.3010 BACKWARD </s> -0.3010
+-0.3010 CHANGE MODE 0.0000
+-0.3010 EXIT </s> -0.3010
+-0.3010 FAST </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.3010 MODE </s> -0.3010
+-1.0792 MOVE BACKWARD 0.0000
+-1.0792 MOVE FAST 0.0000
+-1.0792 MOVE FORWARD 0.0000
+-1.0792 MOVE LEFT 0.0000
+-1.0792 MOVE RIGHT 0.0000
+-1.0792 MOVE SLOW 0.0000
+-0.3010 RIGHT </s> -0.3010
+-0.3010 SLOW </s> -0.3010
+-0.3010 START </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.6021 TURN LEFT 0.0000
+-0.6021 TURN RIGHT 0.0000
+
+\3-grams:
+-0.3010 <s> CHANGE MODE
+-0.3010 <s> EXIT </s>
+-1.0792 <s> MOVE BACKWARD
+-1.0792 <s> MOVE FAST
+-1.0792 <s> MOVE FORWARD
+-1.0792 <s> MOVE LEFT
+-1.0792 <s> MOVE RIGHT
+-1.0792 <s> MOVE SLOW
+-0.3010 <s> START </s>
+-0.3010 <s> STOP </s>
+-0.6021 <s> TURN LEFT
+-0.6021 <s> TURN RIGHT
+-0.3010 CHANGE MODE </s>
+-0.3010 MOVE BACKWARD </s>
+-0.3010 MOVE FAST </s>
+-0.3010 MOVE FORWARD </s>
+-0.3010 MOVE LEFT </s>
+-0.3010 MOVE RIGHT </s>
+-0.3010 MOVE SLOW </s>
+-0.3010 TURN LEFT </s>
+-0.3010 TURN RIGHT </s>
+
+\end\

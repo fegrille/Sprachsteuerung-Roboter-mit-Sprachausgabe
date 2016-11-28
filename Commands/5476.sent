@@ -1,0 +1,12 @@
+<s> MOVE FORWARD </s>
+<s> MOVE BACKWARD </s>
+<s> MOVE LEFT </s>
+<s> MOVE RIGHT </s>
+<s> START </s>
+<s> STOP </s>
+<s> TURN LEFT </s>
+<s> TURN RIGHT </s>
+<s> CHANGE MODE </s>
+<s> MOVE SLOW </s>
+<s> MOVE FAST </s>
+<s> EXIT </s>

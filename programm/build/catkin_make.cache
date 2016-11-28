@@ -1,0 +1,2 @@
+code
+-DCATKIN_DEVEL_PREFIX=/home/robolab/Bachlorarbeit_FG/Thesis/programm/devel -DCMAKE_INSTALL_PREFIX=/home/robolab/Bachlorarbeit_FG/Thesis/programm/install -G Unix Makefiles

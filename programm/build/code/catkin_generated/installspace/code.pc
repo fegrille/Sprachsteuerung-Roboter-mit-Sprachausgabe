@@ -1,0 +1,8 @@
+prefix=/home/robolab/Bachlorarbeit_FG/Thesis/programm/install
+
+Name: code
+Description: Description of code
+Version: 0.0.0
+Cflags: -I/home/robolab/Bachlorarbeit_FG/Thesis/programm/install/include -I/usr/include
+Libs: -L/home/robolab/Bachlorarbeit_FG/Thesis/programm/install/lib -l:/usr/lib/x86_64-linux-gnu/libboost_thread.so -l:/usr/lib/x86_64-linux-gnu/libpthread.so
+Requires: rospy std_msgs geometry_msgs message_runtime dynamic_reconfigure roscpp

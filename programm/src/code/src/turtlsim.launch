@@ -1,0 +1,28 @@
+<launch>
+    <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node"/>
+    <node name="turtsim" pkg="code" type="thesis.py" output="screen">
+      <param name="speed" type="double" value="0.2" />
+      <param name="rotspeed" type="int" value="20" />
+      <param name="distance" type="double" value="0.8" />
+      <param name="degree" type="int" value="45" />
+      <param name="simulator" type="str" value="turtlesim"/>
+    </node>
+    <node name="pocket" pkg="code" type="pocket.py" output="log">
+      <param name="dic" type="str" value="/home/robolab/Bachlorarbeit_FG/Thesis/Trainingsaufnahmen/5476.dic"/>
+      <param name="lm" type="str" value="/home/robolab/Bachlorarbeit_FG/Thesis/Trainingsaufnahmen/5476.lm.bin"/>
+      <param name="hmm" type="str" value="/home/robolab/Bachlorarbeit_FG/Thesis/Trainingsaufnahmen/en-us-adapt"/> 
+    </node>
+    <node name="espeak_node" pkg="code" type="espeak_node" output="screen">
+      <param name="rate" type="int" value="150" />
+      <param name="volume" type="int" value="100" />
+      <param name="pitch" type="int" value="50" />
+      <param name="range" type="int" value="50" />
+      <param name="wordgap" type="int" value="10" />
+      <param name="age" type="int" value="80" />
+      <param name="voice" type="int" value="1" />
+      <param name="dialect" type="int" value="1" />
+      <param name="punctuation" type="int" value="0" />
+      <param name="capitals" type="int" value="0" />
+      <param name="gender" type="int" value="1" />
+    </node>
+</launch>
